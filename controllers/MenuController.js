@@ -40,6 +40,11 @@
    clear(){
      console.log("\x1Bc");
    }
+   remindMe(){
+    const remindMeString = "Learning is a life-long pursuit";
+    console.log(remindMeString);
+    return remindMeString;
+   }
    addContact(){
      this.clear();
      console.log("addContact22 called");
@@ -53,6 +58,9 @@
    const day = d.getDate();
    console.log(month + "/"+ day + "/" + year);
    this.main();
+   }
+   getContactCount(){
+     return this.contacts.length;
    }
    
    exit(){
