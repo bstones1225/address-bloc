@@ -40,11 +40,6 @@
    clear(){
      console.log("\x1Bc");
    }
-   remindMe(){
-    const remindMeString = "Learning is a life-long pursuit";
-    console.log(remindMeString);
-    return remindMeString;
-   }
    addContact(){
      this.clear();
      console.log("addContact22 called");
