@@ -18,6 +18,9 @@ const MenuController = require("../controllers/MenuController");
       });
    });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> f2abc4bb99fd4c902ae87b7b7adabc78be53ace3
 
     describe("#remindMe()", () => {
      it("should return 'Learning is a life-long pursuit' when called", () => {
@@ -25,5 +28,8 @@ const MenuController = require("../controllers/MenuController");
       });
      
     });
+<<<<<<< HEAD
 
+=======
+>>>>>>> f2abc4bb99fd4c902ae87b7b7adabc78be53ace3
  });
