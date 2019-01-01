@@ -1,4 +1,5 @@
  const inquirer = require('inquirer');
+const ContactController = require("./ContactController");
 
  module.exports = class MenuController {
    constructor(){
@@ -14,7 +15,7 @@
         ]
       }
     ];
-    this.contacts = [];
+    this.book = new ContactController();
 }
    main(){
    console.log(`Welcome to AddressBloc!`);
@@ -39,11 +40,6 @@
 
    clear(){
      console.log("\x1Bc");
-   }
-   remindMe(){
-    const remindMeString = "Learning is a life-long pursuit";
-    console.log(remindMeString);
-    return remindMeString;
    }
    addContact(){
      this.clear();
