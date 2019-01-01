@@ -18,5 +18,13 @@ const MenuController = require("../controllers/MenuController");
         expect(this.menu.getContactCount()).toBe(1)
       });
    });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> 508b71d106ae95a6965b7711fd4a9e8cdd81e657
+
+>>>>>>> menu-test
 });
 
