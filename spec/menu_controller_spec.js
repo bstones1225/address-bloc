@@ -17,7 +17,7 @@ const MenuController = require("../controllers/MenuController");
         expect(this.menu.getContactCount()).toBe(1)
       });
    });
-<<<<<<< HEAD
+
 
     describe("#remindMe()", () => {
      it("should return 'Learning is a life-long pursuit' when called", () => {
