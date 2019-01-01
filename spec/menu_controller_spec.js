@@ -18,4 +18,6 @@ const MenuController = require("../controllers/MenuController");
         expect(this.menu.getContactCount()).toBe(1)
       });
    });
+
 });
+
