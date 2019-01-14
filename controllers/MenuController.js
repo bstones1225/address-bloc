@@ -1,4 +1,4 @@
- const inquirer = require('inquirer');
+const inquirer = require('inquirer');
 const ContactController = require("./ContactController");
 
  module.exports = class MenuController {
@@ -43,8 +43,15 @@ const ContactController = require("./ContactController");
    }
    addContact(){
      this.clear();
-     console.log("addContact22 called");
-     this.main();
+     inquirer.prompt(this.book.addContactQuestions).then((answers) => {
+       this.book.addContact(answers.name, answers.phone).then((contact) => {
+         console.log("Contact added successfully!");
+         this.main();
+       }).catch((err) => {
+         console.log(err);
+         this.main();
+       });
+     });
    }
    getDate(){
    this.clear();
@@ -55,10 +62,6 @@ const ContactController = require("./ContactController");
    console.log(month + "/"+ day + "/" + year);
    this.main();
    }
-   getContactCount(){
-     return this.contacts.length;
-   }
-   
    exit(){
      console.log("Thanks for using AddressBloc!");
      process.exit();
