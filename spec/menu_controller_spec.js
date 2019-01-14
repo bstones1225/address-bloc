@@ -19,6 +19,7 @@ const MenuController = require("../controllers/MenuController");
       });
    });
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 
@@ -26,5 +27,7 @@ const MenuController = require("../controllers/MenuController");
 >>>>>>> 508b71d106ae95a6965b7711fd4a9e8cdd81e657
 
 >>>>>>> menu-test
+=======
+>>>>>>> 18a9286b79c55843885775134b4740b1c64abb42
 });
 
