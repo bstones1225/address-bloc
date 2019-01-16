@@ -2,7 +2,7 @@
   "name": "address-bloc",
   "version": "1.0.0",
   "description": "An application to model an address book in Node",
-  "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[3~\u001b\u001b[C\u001b[C\u001b[Cap\u001b[D\u001b[D\u001b[Dapp",
+  "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test && jasmine"
   },
