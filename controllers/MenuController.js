@@ -1,29 +1,3 @@
-
-Skip to content
-
-    Pull requests
-    Issues
-    Marketplace
-    Explore
-
-    @bstones1225
-
-0
-0
-
-    0
-
-caylaxnicole/address-bloc
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Insights
-address-bloc/controllers/MenuController.js
-c0f90f2 on Dec 5, 2018
-@caylaxnicole caylaxnicole Checkpoint listing contacts and searching: completed
-174 lines (159 sloc) 3.72 KB
 const inquirer = require('inquirer');
 const ContactController = require("./ContactController");
 
@@ -197,19 +171,3 @@ module.exports = class MenuController {
   }
 
 }
-
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
-Press h to open a hovercard with more details.
