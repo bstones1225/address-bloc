@@ -89,6 +89,7 @@ module.exports = class ContactController {
         return contacts[mid];
       }
     }
+
     return null;
   }
   search(name){
@@ -100,5 +101,5 @@ module.exports = class ContactController {
     return Contact.destroy({
       where: {id}
     });
-  };
+  }
 }

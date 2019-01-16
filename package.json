@@ -12,6 +12,7 @@
   "author": "Brian Stones",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^6.2.0",
     "inquirer": "^5.1.0",
     "pg": "^7.4.1",
     "pg-hstore": "^2.3.2",
